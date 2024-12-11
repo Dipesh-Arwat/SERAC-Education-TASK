@@ -25,9 +25,6 @@ This is a **MERN Stack Application** built as part of the SERAC Education task. 
 - **Express.js**: Web framework for Node.js.
 - **MongoDB**: Database for storing user data.
 
-### Deployment
-- **Frontend**: Hosted on GitHub Pages.
-- **Backend**: Deployed on Render.com.
 
 ## Installation
 
