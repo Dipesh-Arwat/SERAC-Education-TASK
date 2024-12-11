@@ -108,7 +108,7 @@ SERAC-Education-TASK/
 ![image](https://github.com/user-attachments/assets/a179483f-bc8b-4655-9371-ee979ba558e7)
 
 ### Home Page
-
+![image](https://github.com/user-attachments/assets/70830d99-e15b-40e8-8214-278a89754aef)
 
 ---
 
