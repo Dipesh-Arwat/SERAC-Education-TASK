@@ -56,7 +56,6 @@ const LoginSignup = () => {
         if (Object.keys(errors).length === 0) {
             try {
                 if (state === "Sign Up") {
-                  
                     const response = await axios.post('http://localhost:5000/api/auth/signup', {
                         username: formData.username,
                         email: formData.email,
@@ -65,20 +64,21 @@ const LoginSignup = () => {
                     });
                     console.log("Signup successful:", response.data);
                     alert(response.data.message);
-                    setState("Login"); 
+                    setState("Login");
                 } else {
-                    
                     const response = await axios.post('http://localhost:5000/api/auth/login', {
                         email: formData.email,
                         password: formData.password,
                     });
                     console.log("Login successful:", response.data);
-                    alert("Login successful!");
-                    navigate('/home');
                     
+                    // Store token in localStorage
+                    localStorage.setItem("token", response.data.token);
+    
+                    alert("Login successful!");
+                    navigate('/home'); // Navigate to home
                 }
     
-                
                 setFormData({
                     username: '',
                     email: '',
@@ -87,7 +87,6 @@ const LoginSignup = () => {
                     agree: false,
                 });
     
-               
                 setValidationErrors({});
             } catch (error) {
                 console.error("Error during form submission:", error.response.data.message);
@@ -97,6 +96,7 @@ const LoginSignup = () => {
             setValidationErrors(errors);
         }
     };
+    
 
     return (
         <div className="loginSignup">
