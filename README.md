@@ -100,17 +100,15 @@ SERAC-Education-TASK/
 2. Deploy the `build` folder to GitHub Pages or another hosting platform.
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/64452986-12ce-473b-aaf3-75873f297c35)
 
 ### Login Page
-![Login Page](https://via.placeholder.com/800x400?text=Login+Page)
-![image](https://github.com/user-attachments/assets/a179483f-bc8b-4655-9371-ee979ba558e7)
+![image](https://github.com/user-attachments/assets/64452986-12ce-473b-aaf3-75873f297c35)
 
 ### Signup Page
-![Signup Page](https://via.placeholder.com/800x400?text=Signup+Page)
+![image](https://github.com/user-attachments/assets/a179483f-bc8b-4655-9371-ee979ba558e7)
 
 ### Home Page
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page)
+
 
 ---
 
