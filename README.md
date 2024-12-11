@@ -59,9 +59,9 @@ cd SERAC-Education-TASK
    ```
 
 ### Frontend Setup
-1. Navigate to the `frontend` directory:
+1. Navigate to the `react-assign` directory:
    ```bash
-   cd frontend
+   cd react-assign
    ```
 2. Install dependencies:
    ```bash
@@ -79,7 +79,7 @@ The application will run on `http://localhost:3000` for the frontend and `http:/
 ```plaintext
 SERAC-Education-TASK/
 |-- backend/       # Backend code
-|-- frontend/      # Frontend code
+|-- react-assign/      # Frontend code
 |-- README.md      # Project documentation
 ```
 
