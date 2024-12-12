@@ -13,6 +13,8 @@ This is a **MERN Stack Application** built as part of the SERAC Education task. 
 - **Logout Functionality**
   - Securely logs out the user by clearing the authentication token.
   - Redirects the user to the login page.
+- **Responsive Design**
+  - Fully responsive layout with animated CSS effects for a modern look.    
 
 ## Tech Stack
 
